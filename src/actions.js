@@ -58,7 +58,7 @@ function shouldFetchPosts(state, subreddit) {
     return false;
   }
   else {
-    return posts.didInvalidate
+    return posts.didInvalidate;
   }
 }
 
